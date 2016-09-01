@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd" >
+<plist version="1.0"><!-- menus, buttons and icons //-->
+    <textures>
+        <!-- TextureAtlas tags Created with TexturePacker http://www.codeandweb.com/texturepacker //-->
+        <TextureAtlas imagePath="menus.png" width="256" height="512">
+            <sprite n="bones_disabled" x="1" y="1" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="bones_normal" x="52" y="1" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="bones_selected" x="103" y="1" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="flip_hor_disabled" x="154" y="1" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="flip_hor_normal" x="205" y="1" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="flip_hor_selected" x="1" y="52" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="next2_disabled" x="52" y="52" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="next2_normal" x="103" y="52" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="next2_selected" x="154" y="52" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="next3_disabled" x="205" y="52" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="next3_normal" x="1" y="103" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="next3_selected" x="52" y="103" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="next_disabled" x="103" y="103" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="next_normal" x="154" y="103" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="next_selected" x="205" y="103" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="prev2_disabled" x="1" y="154" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="prev2_normal" x="52" y="154" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="prev2_selected" x="103" y="154" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="prev3_disabled" x="154" y="154" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="prev3_normal" x="205" y="154" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="prev3_selected" x="1" y="205" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="prev_disabled" x="52" y="205" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="prev_normal" x="103" y="205" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="prev_selected" x="154" y="205" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="rotate_disabled" x="205" y="205" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="rotate_normal" x="1" y="256" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="rotate_selected" x="52" y="256" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="scale_minus_disabled" x="103" y="256" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="scale_minus_normal" x="154" y="256" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="scale_minus_selected" x="205" y="256" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="scale_plus_disabled" x="1" y="307" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="scale_plus_normal" x="1" y="358" w="50" h="50" pX="0.5" pY="0.5"/>
+            <sprite n="scale_plus_selected" x="1" y="409" w="50" h="50" pX="0.5" pY="0.5"/>
+        </TextureAtlas>
+    </textures>
+	<menus>
+        <menu type="next" x="=w-150" y="=h-50">
+            <field width="50" height="50" x="0" y="0"/>
+            <event type="normal"><item type="picture" texture="menus.png"/></event>
+            <event type="selected"><item type="picture" texture="menus.png"/></event>
+            <event type="disabled"><item type="picture" texture="menus.png"/></event>
+        </menu>
+        <menu type="next2" x="=w-100" y="=h-50">
+            <field width="50" height="50" x="0" y="0"/>
+            <event type="normal"><item type="picture" texture="menus.png"/></event>
+            <event type="selected"><item type="picture" texture="menus.png"/></event>
+            <event type="disabled"><item type="picture" texture="menus.png"/></event>
+        </menu>
+        <menu type="next3" x="=w-50" y="=h-50">
+            <field width="50" height="50" x="0" y="0"/>
+            <event type="normal"><item type="picture" texture="menus.png"/></event>
+            <event type="selected"><item type="picture" texture="menus.png"/></event>
+            <event type="disabled"><item type="picture" texture="menus.png"/></event>
+        </menu>
+        <menu type="prev" x="=w-200" y="=h-50">
+            <field width="50" height="50" x="0" y="0"/>
+            <event type="normal"><item type="picture" texture="menus.png"/></event>
+            <event type="selected"><item type="picture" texture="menus.png"/></event>
+            <event type="disabled"><item type="picture" texture="menus.png"/></event>
+        </menu>
+        <menu type="prev2" x="=w-250" y="=h-50">
+            <field width="50" height="50" x="0" y="0"/>
+            <event type="normal"><item type="picture" texture="menus.png"/></event>
+            <event type="selected"><item type="picture" texture="menus.png"/></event>
+            <event type="disabled"><item type="picture" texture="menus.png"/></event>
+        </menu>
+        <menu type="prev3" x="=w-300" y="=h-50">
+            <field width="50" height="50" x="0" y="0"/>
+            <event type="normal"><item type="picture" texture="menus.png"/></event>
+            <event type="selected"><item type="picture" texture="menus.png"/></event>
+            <event type="disabled"><item type="picture" texture="menus.png"/></event>
+        </menu>
+        <menu type="scale_plus" x="0" y="=h-50">
+            <field width="50" height="50" x="0" y="0"/>
+            <event type="normal"><item type="picture" texture="menus.png"/></event>
+            <event type="selected"><item type="picture" texture="menus.png"/></event>
+            <event type="disabled"><item type="picture" texture="menus.png"/></event>
+        </menu>
+        <menu type="scale_minus" x="50" y="=h-50">
+            <field width="50" height="50" x="0" y="0"/>
+            <event type="normal"><item type="picture" texture="menus.png"/></event>
+            <event type="selected"><item type="picture" texture="menus.png"/></event>
+            <event type="disabled"><item type="picture" texture="menus.png"/></event>
+        </menu>
+        <menu type="flip_hor" x="0" y="=h-100">
+            <field width="50" height="50" x="0" y="0"/>
+            <event type="normal"><item type="picture" texture="menus.png"/></event>
+            <event type="selected"><item type="picture" texture="menus.png"/></event>
+            <event type="disabled"><item type="picture" texture="menus.png"/></event>
+        </menu>
+        <menu type="rotate" x="50" y="=h-100">
+            <field width="50" height="50" x="0" y="0"/>
+            <event type="normal"><item type="picture" texture="menus.png"/></event>
+            <event type="selected"><item type="picture" texture="menus.png"/></event>
+            <event type="disabled"><item type="picture" texture="menus.png"/></event>
+        </menu>
+        <menu type="bones" x="100" y="=h-50">
+            <field width="50" height="50" x="0" y="0"/>
+            <event type="normal"><item type="picture" texture="menus.png"/></event>
+            <event type="selected"><item type="picture" texture="menus.png"/></event>
+            <event type="disabled"><item type="picture" texture="menus.png"/></event>
+        </menu>
+	</menus>
+</plist>

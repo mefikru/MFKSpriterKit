@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:4a839b3a06247a8e2af0d92580029d0e:a40750c048c1181066d5f1c16704767c:2208afbc74c8fa5ef00d111827c9a948$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="player@4x.png" width="1024" height="2048">
+    <sprite n="arms/forarm_throw_0.png" x="698" y="803" w="44" h="53" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="arms/forearm_hit_0.png" x="960" y="333" w="60" h="54" pX="0.5" pY="0.5"/>
+    <sprite n="arms/forearm_jump_0.png" x="960" y="807" w="55" h="47" pX="0.5" pY="0.5"/>
+    <sprite n="arms/p_arm_idle.png" x="950" y="1667" w="66" h="49" pX="0.5" pY="0.5"/>
+    <sprite n="arms/p_arm_idle_a.png" x="163" y="1785" w="52" h="37" pX="0.5" pY="0.5"/>
+    <sprite n="arms/p_arm_ladder.png" x="633" y="1846" w="49" h="66" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="arms/p_arm_slide_0.png" x="633" y="1914" w="49" h="66" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="arms/p_arm_throw_0.png" x="633" y="1982" w="66" h="49" pX="0.5" pY="0.5"/>
+    <sprite n="arms/p_arm_walk.png" x="684" y="1846" w="49" h="66" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="arms/p_forarm_idle_0.png" x="698" y="858" w="44" h="53" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="arms/p_forarm_idle_a.png" x="163" y="1824" w="50" h="36" pX="0.5" pY="0.5"/>
+    <sprite n="arms/p_forarm_jump_0.png" x="680" y="1233" w="53" h="44" pX="0.5" pY="0.5"/>
+    <sprite n="arms/p_forarm_ladder_0.png" x="680" y="1279" w="53" h="44" pX="0.5" pY="0.5"/>
+    <sprite n="arms/p_forarm_side_0.png" x="680" y="1325" w="53" h="44" pX="0.5" pY="0.5"/>
+    <sprite n="arms/p_forarm_under_0.png" x="680" y="1371" w="53" h="44" pX="0.5" pY="0.5"/>
+    <sprite n="arms/p_forarm_walk_a.png" x="163" y="1862" w="50" h="36" pX="0.5" pY="0.5"/>
+    <sprite n="arms/throw_blur_0.png" x="487" y="416" w="257" h="227" pX="0.5" pY="0.5"/>
+    <sprite n="breastplate_0/breast_plate_0.png" x="951" y="1339" w="66" h="80" pX="0.5" pY="0.5"/>
+    <sprite n="breastplate_0/breast_plate_1.png" x="951" y="1421" w="66" h="80" pX="0.5" pY="0.5"/>
+    <sprite n="breastplate_0/breast_plate_34_back.png" x="950" y="1503" w="66" h="80" pX="0.5" pY="0.5"/>
+    <sprite n="breastplate_0/breast_plate_back.png" x="950" y="1585" w="66" h="80" pX="0.5" pY="0.5"/>
+    <sprite n="cape_0/cape_0.png" x="243" y="513" w="155" h="133" pX="0.5" pY="0.5"/>
+    <sprite n="cape_0/cape_1.png" x="217" y="648" w="155" h="133" pX="0.5" pY="0.5"/>
+    <sprite n="cape_0/cape_2.png" x="217" y="783" w="155" h="133" pX="0.5" pY="0.5"/>
+    <sprite n="cape_0/cape_3.png" x="217" y="918" w="155" h="133" pX="0.5" pY="0.5"/>
+    <sprite n="cape_0/cape_back_0.png" x="217" y="1053" w="155" h="133" pX="0.5" pY="0.5"/>
+    <sprite n="cape_0/cape_back_1.png" x="217" y="1188" w="155" h="133" pX="0.5" pY="0.5"/>
+    <sprite n="cape_0/cape_back_2.png" x="217" y="1323" w="155" h="133" pX="0.5" pY="0.5"/>
+    <sprite n="elbow_armour/elbow_0.png" x="595" y="1715" w="52" h="48" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="elbow_armour/elbow_1.png" x="163" y="1685" w="52" h="48" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="elbow_armour/elbow_2.png" x="163" y="1735" w="52" h="48" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="elbow_armour/elbow_a.png" x="1" y="2003" w="36" h="42" pX="0.5" pY="0.5"/>
+    <sprite n="elbow_armour/elbow_b.png" x="39" y="2003" w="36" h="42" pX="0.5" pY="0.5"/>
+    <sprite n="feet/ladder_guide.png" x="1" y="334" w="413" h="177" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="feet/p_foot_hit_a.png" x="960" y="966" w="53" h="78" pX="0.5" pY="0.5"/>
+    <sprite n="feet/p_foot_hot_0.png" x="960" y="201" w="62" h="83" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="feet/p_foot_idle_0.png" x="960" y="1046" w="53" h="78" pX="0.5" pY="0.5"/>
+    <sprite n="feet/p_foot_jump_0.png" x="680" y="913" w="53" h="78" pX="0.5" pY="0.5"/>
+    <sprite n="feet/p_foot_ladder_0.png" x="680" y="993" w="53" h="78" pX="0.5" pY="0.5"/>
+    <sprite n="feet/p_foot_ladder_1.png" x="680" y="1073" w="53" h="78" pX="0.5" pY="0.5"/>
+    <sprite n="feet/p_foot_walk_0.png" x="680" y="1153" w="53" h="78" pX="0.5" pY="0.5"/>
+    <sprite n="feet/p_foot_walk_a.png" x="698" y="729" w="44" h="72" pX="0.5" pY="0.5"/>
+    <sprite n="feet/stairs_angle.png" x="1" y="179" w="440" h="153" pX="0.5" pY="0.5"/>
+    <sprite n="hands/p_hand_1.png" x="1" y="1685" w="79" h="77" pX="0.5" pY="0.5"/>
+    <sprite n="hands/p_hand_2.png" x="82" y="1685" w="79" h="77" pX="0.5" pY="0.5"/>
+    <sprite n="hands/p_hand_2_weap.png" x="1" y="1764" w="79" h="77" pX="0.5" pY="0.5"/>
+    <sprite n="hands/p_hand_a.png" x="374" y="1384" w="79" h="78" pX="0.5" pY="0.5"/>
+    <sprite n="hands/p_hand_a_edge.png" x="649" y="1524" w="79" h="78" pX="0.5" pY="0.5"/>
+    <sprite n="hands/p_hand_b.png" x="649" y="1604" w="79" h="78" pX="0.5" pY="0.5"/>
+    <sprite n="hands/p_hand_c.png" x="649" y="1684" w="79" h="78" pX="0.5" pY="0.5"/>
+    <sprite n="hands/p_hand_edge_0.png" x="82" y="1764" w="79" h="77" pX="0.5" pY="0.5"/>
+    <sprite n="hands/p_hand_float_0.png" x="217" y="1758" w="79" h="77" pX="0.5" pY="0.5"/>
+    <sprite n="hands/p_hand_gun_0.png" x="298" y="1758" w="79" h="77" pX="0.5" pY="0.5"/>
+    <sprite n="hands/p_hand_gun_1.png" x="1" y="1843" w="79" h="77" pX="0.5" pY="0.5"/>
+    <sprite n="hands/p_hand_hang.png" x="82" y="1843" w="79" h="77" pX="0.5" pY="0.5"/>
+    <sprite n="hands/p_hand_hang_0.png" x="1" y="1922" w="77" h="79" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="hands/p_hand_hang_1.png" x="80" y="1922" w="77" h="79" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="hands/p_hand_hang_a.png" x="217" y="1678" w="79" h="78" pX="0.5" pY="0.5"/>
+    <sprite n="hands/p_hand_hit_0.png" x="159" y="1922" w="77" h="79" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="hands/p_hand_hit_a.png" x="298" y="1678" w="79" h="78" pX="0.5" pY="0.5"/>
+    <sprite n="hands/p_hand_idle_0.png" x="215" y="1837" w="77" h="79" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="hands/p_hand_idle_weap.png" x="238" y="1918" w="77" h="79" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="hands/p_hand_jump_0.png" x="294" y="1837" w="77" h="79" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="hands/p_hand_jump_a.png" x="433" y="1715" w="79" h="78" pX="0.5" pY="0.5"/>
+    <sprite n="hands/p_hand_ladder_0.png" x="317" y="1918" w="77" h="79" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="hands/p_hand_ladder_1.png" x="373" y="1837" w="77" h="79" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="hands/p_hand_prepunch_0.png" x="396" y="1918" w="77" h="79" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="hands/p_hand_prepunch_x.png" x="452" y="1795" w="77" h="79" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="hands/p_hand_punch_0.png" x="475" y="1876" w="77" h="79" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="hands/p_hand_push_0.png" x="531" y="1795" w="77" h="79" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="hands/p_hand_push_a.png" x="514" y="1715" w="79" h="78" pX="0.5" pY="0.5"/>
+    <sprite n="hands/p_hand_slide_0.png" x="475" y="1957" w="77" h="79" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="hands/p_hand_throw_0.png" x="554" y="1876" w="77" h="79" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="hands/p_hand_up.png" x="554" y="1957" w="77" h="79" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="hands/p_hand_weap_side.png" x="610" y="1765" w="77" h="79" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="hands/p_punch_blur.png" x="960" y="614" w="56" h="191" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="head/p_head_angry.png" x="746" y="416" w="212" h="214" pX="0.5" pY="0.5"/>
+    <sprite n="head/p_head_back.png" x="746" y="632" w="212" h="214" pX="0.5" pY="0.5"/>
+    <sprite n="head/p_head_blink_0.png" x="1" y="615" w="214" h="212" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="head/p_head_blink_1.png" x="482" y="645" w="214" h="212" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="head/p_head_concern.png" x="744" y="848" w="214" h="212" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="head/p_head_concern_blink_0.png" x="1" y="829" w="214" h="212" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="head/p_head_concern_blink_1.png" x="1" y="1043" w="214" h="212" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="head/p_head_die.png" x="464" y="859" w="214" h="212" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="head/p_head_fatigued_0.png" x="735" y="1062" w="214" h="212" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="head/p_head_front.png" x="464" y="1073" w="214" h="212" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="head/p_head_hurt.png" x="1" y="1257" w="214" h="212" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="head/p_head_idle.png" x="735" y="1276" w="214" h="212" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="head/p_head_idle_blink_0.png" x="464" y="1287" w="214" h="212" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="head/p_head_idle_blink_1.png" x="734" y="1490" w="214" h="212" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="head/p_head_push.png" x="217" y="1464" w="214" h="212" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="head/p_head_turn_0.png" x="1" y="1471" w="214" h="212" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="head/p_head_walk.png" x="433" y="1501" w="214" h="212" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="hip_armour_0/hip_plate_0.png" x="698" y="645" w="45" h="40" pX="0.5" pY="0.5"/>
+    <sprite n="hip_armour_0/hip_plate_1.png" x="698" y="687" w="45" h="40" pX="0.5" pY="0.5"/>
+    <sprite n="hip_armour_0/hip_plate_a.png" x="77" y="2003" w="30" h="37" pX="0.5" pY="0.5"/>
+    <sprite n="hip_armour_0/hip_plate_b.png" x="109" y="2003" w="30" h="37" pX="0.5" pY="0.5"/>
+    <sprite n="hip_armour_0/hip_plate_back.png" x="141" y="2003" w="30" h="37" pX="0.5" pY="0.5"/>
+    <sprite n="knee_armour_0/knee_0.png" x="960" y="443" w="58" h="55" pX="0.5" pY="0.5"/>
+    <sprite n="knee_armour_0/knee_1.png" x="960" y="500" w="58" h="55" pX="0.5" pY="0.5"/>
+    <sprite n="knee_armour_0/knee_a.png" x="960" y="389" w="59" h="52" pX="0.5" pY="0.5"/>
+    <sprite n="knee_armour_0/knee_back.png" x="960" y="557" w="58" h="55" pX="0.5" pY="0.5"/>
+    <sprite n="legs/p_leg_a.png" x="960" y="286" w="61" h="45" pX="0.5" pY="0.5"/>
+    <sprite n="legs/p_leg_idle_0.png" x="680" y="1457" w="52" h="65" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="legs/p_leg_ladder_0.png" x="379" y="1678" w="52" h="65" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="legs/p_leg_walk_0.png" x="379" y="1745" w="52" h="65" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="legs/p_pelvis_back.png" x="960" y="1" w="63" h="48" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="legs/p_pelvis_die.png" x="960" y="51" w="63" h="48" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="legs/p_pelvis_idle.png" x="960" y="101" w="63" h="48" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="legs/p_pelvis_walk.png" x="960" y="151" w="63" h="48" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="legs/p_thigh_a.png" x="680" y="1417" w="53" h="38" pX="0.5" pY="0.5"/>
+    <sprite n="legs/p_thigh_idle_0.png" x="443" y="179" w="42" h="58" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="legs/p_thigh_ladder_0.png" x="443" y="239" w="42" h="58" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="legs/p_thigh_walk_0.png" x="443" y="299" w="42" h="58" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="shield_0/shield_0.png" x="400" y="578" w="80" h="100" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="shield_0/shield_1.png" x="374" y="680" w="100" h="80" pX="0.5" pY="0.5"/>
+    <sprite n="shield_0/shield_a.png" x="374" y="762" w="100" h="80" pX="0.5" pY="0.5"/>
+    <sprite n="shoulder_armour_0/shoulder_armour_0.png" x="416" y="359" w="69" h="71" pX="0.5" pY="0.5"/>
+    <sprite n="shoulder_armour_0/shoulder_armour_1.png" x="416" y="432" w="69" h="71" pX="0.5" pY="0.5"/>
+    <sprite n="shoulder_armour_0/shoulder_armour_2.png" x="416" y="505" w="69" h="71" pX="0.5" pY="0.5"/>
+    <sprite n="shoulder_armour_0/shoulder_armour_3.png" x="951" y="1126" w="71" h="69" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="shoulder_armour_0/shoulder_armour_a.png" x="960" y="856" w="54" h="53" pX="0.5" pY="0.5"/>
+    <sprite n="shoulder_armour_0/shoulder_armour_a_back.png" x="960" y="911" w="54" h="53" pX="0.5" pY="0.5"/>
+    <sprite n="shoulder_armour_0/shoulder_armour_back.png" x="951" y="1197" w="71" h="69" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="shoulder_armour_0/shoulder_armour_under.png" x="951" y="1268" w="71" h="69" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="sword_0/Sword_0_blur_0.png" x="487" y="1" w="471" h="413" pX="0.5" pY="0.5"/>
+    <sprite n="sword_0/sword_0.png" x="1" y="513" w="240" h="100" pX="0.5" pY="0.5"/>
+    <sprite n="sword_0/sword_thrust_blur_0.png" x="1" y="1" w="484" h="176" pX="0.5" pY="0.5"/>
+    <sprite n="torso/p_torso_back.png" x="374" y="844" w="88" h="88" pX="0.5" pY="0.5"/>
+    <sprite n="torso/p_torso_front.png" x="374" y="934" w="88" h="88" pX="0.5" pY="0.5"/>
+    <sprite n="torso/p_torso_idle.png" x="374" y="1024" w="88" h="88" pX="0.5" pY="0.5"/>
+    <sprite n="torso/p_torso_jump.png" x="374" y="1114" w="88" h="88" pX="0.5" pY="0.5"/>
+    <sprite n="torso/p_torso_punch_0.png" x="374" y="1204" w="88" h="88" pX="0.5" pY="0.5"/>
+    <sprite n="torso/p_torso_walk.png" x="374" y="1294" w="88" h="88" pX="0.5" pY="0.5"/>
+</TextureAtlas>

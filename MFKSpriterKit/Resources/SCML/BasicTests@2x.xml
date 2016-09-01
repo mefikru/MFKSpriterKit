@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:9b496d0177a42477fcc9e0f8e323d558:e8bf501df7ff278810d736cea04ae8eb:a6bc539b60a72661965001ec3b3146f9$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="BasicTests@2x.png" width="512" height="512">
+    <sprite n="GreyGuy/arms/p_arm_idle.png" x="482" y="303" w="25" h="33" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/arms/p_arm_idle_a.png" x="110" y="117" w="19" h="26" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/arms/p_arm_slide_0.png" x="329" y="325" w="25" h="33" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/arms/p_arm_throw_0.png" x="482" y="338" w="25" h="33" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/arms/p_arm_walk.png" x="356" y="340" w="33" h="25" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/arms/p_forarm_idle_0.png" x="217" y="315" w="27" h="22" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/arms/p_forarm_idle_a.png" x="110" y="145" w="18" h="25" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/arms/p_forarm_jump_0.png" x="482" y="231" w="27" h="22" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/arms/p_forarm_side_0.png" x="482" y="255" w="27" h="22" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/arms/p_forarm_under_0.png" x="482" y="279" w="27" h="22" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/arms/p_forarm_walk_a.png" x="110" y="172" w="18" h="25" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/arms/throw_blur_0.png" x="1" y="1" w="129" h="114" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/hands/p_hand_1.png" x="1" y="449" w="39" h="40" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/hands/p_hand_2.png" x="42" y="449" w="39" h="40" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/hands/p_hand_a.png" x="83" y="449" w="39" h="40" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/hands/p_hand_a_edge.png" x="124" y="449" w="39" h="40" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/hands/p_hand_b.png" x="165" y="449" w="39" h="40" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/hands/p_hand_c.png" x="206" y="449" w="39" h="40" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/hands/p_hand_edge_0.png" x="247" y="448" w="39" h="40" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/hands/p_hand_float_0.png" x="288" y="448" w="39" h="40" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/hands/p_hand_hang_0.png" x="356" y="217" w="40" h="39" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/hands/p_hand_hang_1.png" x="398" y="217" w="40" h="39" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/hands/p_hand_hang_a.png" x="440" y="231" w="40" h="39" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/hands/p_hand_hit_0.png" x="356" y="258" w="40" h="39" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/hands/p_hand_hit_a.png" x="398" y="258" w="40" h="39" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/hands/p_hand_idle_0.png" x="440" y="272" w="40" h="39" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/hands/p_hand_jump_0.png" x="356" y="299" w="40" h="39" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/hands/p_hand_jump_a.png" x="398" y="299" w="40" h="39" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/hands/p_hand_prepunch_0.png" x="440" y="313" w="40" h="39" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/hands/p_hand_prepunch_x.png" x="325" y="373" w="39" h="40" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/hands/p_hand_punch_0.png" x="391" y="340" w="40" h="39" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/hands/p_hand_push_0.png" x="433" y="354" w="40" h="39" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/hands/p_hand_push_a.png" x="366" y="381" w="40" h="39" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/hands/p_hand_slide_0.png" x="329" y="422" w="39" h="40" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/hands/p_hand_throw_0.png" x="329" y="464" w="39" h="40" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/hands/p_punch_blur.png" x="217" y="217" w="28" h="96" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/head/p_head_blink_0.png" x="132" y="1" w="107" h="106" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/head/p_head_blink_1.png" x="241" y="1" w="107" h="106" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/head/p_head_concern.png" x="350" y="1" w="107" h="106" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/head/p_head_concern_blink_0.png" x="132" y="109" w="107" h="106" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/head/p_head_concern_blink_1.png" x="1" y="117" w="107" h="106" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/head/p_head_die.png" x="241" y="109" w="107" h="106" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/head/p_head_hurt.png" x="350" y="109" w="107" h="106" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/head/p_head_idle.png" x="1" y="231" w="106" h="107" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/head/p_head_idle_blink_0.png" x="1" y="340" w="106" h="107" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/head/p_head_idle_blink_1.png" x="109" y="231" w="106" h="107" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/head/p_head_push.png" x="109" y="340" w="106" h="107" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/head/p_head_turn_0.png" x="247" y="217" w="107" h="106" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="GreyGuy/head/p_head_walk.png" x="217" y="339" w="106" h="107" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/torso/p_torso_front.png" x="459" y="1" w="44" h="44" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/torso/p_torso_idle.png" x="459" y="47" w="44" h="44" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/torso/p_torso_jump.png" x="459" y="93" w="44" h="44" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/torso/p_torso_punch_0.png" x="459" y="139" w="44" h="44" pX="0.5" pY="0.5"/>
+    <sprite n="GreyGuy/torso/p_torso_walk.png" x="459" y="185" w="44" h="44" pX="0.5" pY="0.5"/>
+</TextureAtlas>

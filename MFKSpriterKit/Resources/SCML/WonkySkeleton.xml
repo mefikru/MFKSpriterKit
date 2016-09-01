@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:2b08bd91eeab48445e158f55ff301131:aadad6dbd2d04eb1a1e1ac96f11c32fa:13d67337d7b3663e181d353837056384$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="WonkySkeleton.png" width="128" height="128">
+    <sprite n="arms/blur_0.png" x="1" y="1" w="61" h="65" pX="0.5" pY="0.5"/>
+    <sprite n="arms/forearm_0.png" x="54" y="85" w="8" h="15" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="arms/forearm_a.png" x="43" y="87" w="9" h="15" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="arms/hand_2.png" x="33" y="68" w="16" h="17" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="arms/hand_c.png" x="38" y="105" w="15" h="17" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="arms/shoulder_0.png" x="51" y="68" w="9" h="15" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="arms/shoulder_a.png" x="33" y="87" w="8" h="16" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="body/chest_0.png" x="21" y="105" w="15" h="20" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="body/pelvis_0.png" x="62" y="68" w="12" h="14" pX="0.5" pY="0.5"/>
+    <sprite n="head/head_0.png" x="1" y="68" w="30" h="35" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="head/jaw_0.png" x="1" y="105" w="18" h="20" pX="0.5" pY="0.5"/>
+    <sprite n="legs/foot_0.png" x="64" y="84" w="8" h="13" pX="0.5" pY="0.5"/>
+    <sprite n="legs/foot_a.png" x="70" y="113" w="7" h="11" pX="0.5" pY="0.5"/>
+    <sprite n="legs/leg_0.png" x="55" y="102" w="7" h="14" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="legs/leg_a.png" x="74" y="84" w="6" h="11" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="legs/thigh_0.png" x="64" y="99" w="8" h="12" pX="0.5" pY="0.5" r="y"/>
+    <sprite n="legs/thigh_a.png" x="55" y="118" w="13" h="8" pX="0.5" pY="0.5"/>
+</TextureAtlas>
